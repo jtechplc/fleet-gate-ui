@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import Drivers from "./pages/Drivers";
 import RoutesPage from "./pages/RoutesPage";
 import Queue from "./pages/Queue";
+import AddQueue from "./pages/AddQueue";
 import FareCollection from "./pages/FareCollection";
 import TripTickets from "./pages/TripTickets";
 import Schedule from "./pages/Schedule";
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/drivers" element={<Drivers />} />
           <Route path="/routes" element={<RoutesPage />} />
           <Route path="/queue" element={<Queue />} />
+          <Route path="/add-queue" element={<AddQueue />} />
           <Route path="/fare-collection" element={<FareCollection />} />
           <Route path="/trip-tickets" element={<TripTickets />} />
           <Route path="/schedule" element={<Schedule />} />
