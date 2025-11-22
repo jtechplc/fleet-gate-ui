@@ -7,6 +7,8 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Drivers from "./pages/Drivers";
 import DriverDetail from "./pages/DriverDetail";
+import Vehicles from "./pages/Vehicles";
+import VehicleDetail from "./pages/VehicleDetail";
 import RoutesPage from "./pages/RoutesPage";
 import Queue from "./pages/Queue";
 import AddQueue from "./pages/AddQueue";
@@ -28,6 +30,8 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/drivers" element={<Drivers />} />
           <Route path="/drivers/:id" element={<DriverDetail />} />
+          <Route path="/vehicles" element={<Vehicles />} />
+          <Route path="/vehicles/:id" element={<VehicleDetail />} />
           <Route path="/routes" element={<RoutesPage />} />
           <Route path="/queue" element={<Queue />} />
           <Route path="/add-queue" element={<AddQueue />} />
