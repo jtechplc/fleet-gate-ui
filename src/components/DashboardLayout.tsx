@@ -12,7 +12,8 @@ import {
   Menu,
   X,
   LogOut,
-  PlusCircle
+  PlusCircle,
+  Car
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -23,6 +24,7 @@ interface DashboardLayoutProps {
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
   { name: "Drivers", href: "/drivers", icon: Users },
+  { name: "Vehicles", href: "/vehicles", icon: Car },
   { name: "Routes", href: "/routes", icon: Route },
   { name: "Queue", href: "/queue", icon: List },
   { name: "Fare Collection", href: "/fare-collection", icon: DollarSign },
