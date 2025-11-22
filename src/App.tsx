@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Drivers from "./pages/Drivers";
+import DriverDetail from "./pages/DriverDetail";
 import RoutesPage from "./pages/RoutesPage";
 import Queue from "./pages/Queue";
 import AddQueue from "./pages/AddQueue";
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/drivers" element={<Drivers />} />
+          <Route path="/drivers/:id" element={<DriverDetail />} />
           <Route path="/routes" element={<RoutesPage />} />
           <Route path="/queue" element={<Queue />} />
           <Route path="/add-queue" element={<AddQueue />} />

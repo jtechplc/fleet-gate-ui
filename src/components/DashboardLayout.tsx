@@ -25,7 +25,6 @@ const navigation = [
   { name: "Drivers", href: "/drivers", icon: Users },
   { name: "Routes", href: "/routes", icon: Route },
   { name: "Queue", href: "/queue", icon: List },
-  { name: "Add to Queue", href: "/add-queue", icon: PlusCircle },
   { name: "Fare Collection", href: "/fare-collection", icon: DollarSign },
   { name: "Trip Tickets", href: "/trip-tickets", icon: Ticket },
   { name: "Schedule", href: "/schedule", icon: Calendar },
